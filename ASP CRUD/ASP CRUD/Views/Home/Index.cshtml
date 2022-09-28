@@ -2,7 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<form asp-action="Create" asp-controller="Home"  class="input-group mb-3">
+@model NotesViewModel
+
+<form asp-action="Index" asp-controller="Home"  class="input-group mb-3">
     <div>
         <label for="inputTheme" class="form-label">Тема:</label>
         <input type="text" name="theme" class="form-control" aria-describedby="theme...">
@@ -15,6 +17,18 @@
     <button type="submit" id="confirm" class="btn btn-primary btn-lg">Записать</button>
     <hr />
 </form>
+
+@if (@Model?.Notes.Count() > 0)
+{
+    <ul class="list-group">
+        @foreach (Note note in @Model.Notes)
+        {
+            <li class="list-group-item">
+                @note.Theme + " " + @note.Content
+            </li>
+        }
+    </ul>
+}
 
 @section Scripts{
     <script> 

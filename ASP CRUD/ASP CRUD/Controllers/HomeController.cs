@@ -1,5 +1,6 @@
 ﻿using ASP_CRUD.Models;
 using ASP_CRUD.Servises;
+using ASP_CRUD.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -16,18 +17,23 @@ namespace ASP_CRUD.Controllers
             this.noteService = noteService;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string theme, string content)
+        {
+            if(theme == null) { return View(); }
+            noteService.CreateNote(theme, content);
+            NotesViewModel viewModel = new NotesViewModel()
+            {
+                Notes = noteService.Notes
+            };
+            return View(viewModel);
+        }
+
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Create(string theme, string content)
-        {
-            noteService.CreateNote(theme, content);
-            return View("Index");
-        }
-
-        public IActionResult Privacy()
+        public IActionResult Index2()
         {
             return View();
         }
