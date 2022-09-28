@@ -19,12 +19,14 @@ namespace ASP_CRUD.Controllers
 
         public IActionResult Index(string theme, string content)
         {
-            if(theme == null) { return View(); }
-            noteService.CreateNote(theme, content);
             NotesViewModel viewModel = new NotesViewModel()
             {
                 Notes = noteService.Notes
             };
+            if(theme == null) { return View(viewModel); }
+            else {
+            noteService.CreateNote(theme, content);
+            }
             return View(viewModel);
         }
 

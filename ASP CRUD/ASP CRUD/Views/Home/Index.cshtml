@@ -24,7 +24,7 @@
         @foreach (Note note in @Model.Notes)
         {
             <li class="list-group-item">
-                @note.Theme + " " + @note.Content
+                <strong>Тема:</strong> @note.Theme. <strong>Заметка:</strong> @note.Content <button class="done btn-success">Выполнено</button> <button class="delete btn-danger">Удалить</button>
             </li>
         }
     </ul>
