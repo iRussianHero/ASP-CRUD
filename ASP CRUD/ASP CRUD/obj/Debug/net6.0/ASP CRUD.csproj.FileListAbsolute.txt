@@ -1,0 +1,26 @@
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\appsettings.Development.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\appsettings.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.staticwebassets.runtime.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.exe
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.deps.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.runtimeconfig.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.dll
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\bin\Debug\net6.0\ASP CRUD.pdb
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.csproj.AssemblyReference.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.AssemblyInfoInputs.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.AssemblyInfo.cs
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.csproj.CoreCompileInputs.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.RazorAssemblyInfo.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.RazorAssemblyInfo.cs
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\staticwebassets.build.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\staticwebassets.development.json
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\scopedcss\bundle\ASP CRUD.styles.css
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\scopedcss\projectbundle\ASP CRUD.bundle.scp.css
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.dll
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\refint\ASP CRUD.dll
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.pdb
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ASP CRUD.genruntimeconfig.cache
+D:\Visual studio\Project\HomeWork\ASP CRUD\ASP CRUD\ASP CRUD\obj\Debug\net6.0\ref\ASP CRUD.dll

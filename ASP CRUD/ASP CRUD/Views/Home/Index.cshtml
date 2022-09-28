@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-action="Create" asp-controller="Home"  class="input-group mb-3">
+    <div>
+        <label for="inputTheme" class="form-label">Тема:</label>
+        <input type="text" name="theme" class="form-control" aria-describedby="theme...">
+    </div>
+    <div>
+        <label for="inputContent" class="form-label">Описание:</label>
+        <input type="text" name="content" class="form-control" aria-describedby="content...">
+        <br />
+    </div>
+    <button type="submit" id="confirm" class="btn btn-primary btn-lg">Записать</button>
+    <hr />
+</form>
+
+@section Scripts{
+    <script> 
+    $('confirm').click(function() {
+    );
+});
+</script>
+}
