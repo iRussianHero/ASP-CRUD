@@ -23,21 +23,27 @@ namespace ASP_CRUD.Controllers
             {
                 Notes = noteService.Notes
             };
-            if(theme == null) { return View(viewModel); }
+            if(theme == null || content == null) { return View(viewModel); }
             else {
             noteService.CreateNote(theme, content);
             }
             return View(viewModel);
         }
 
+        public IActionResult Delete(string id)
+        {
+            noteService.DeleteById(id);
+            return RedirectToAction("Index");
+        }
         public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Index2()
+        public IActionResult Edit(string id)
         {
-            return View();
+            var result = 0;//noteService.
+            return View("Edit", result);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

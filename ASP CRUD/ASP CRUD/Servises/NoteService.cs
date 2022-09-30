@@ -15,5 +15,16 @@ namespace ASP_CRUD.Servises
             Note note = new Note() { Id = DateTime.Now, Theme = theme, Content = content };
             Notes.Add(note);
         }
+
+        public void DeleteById(string id)
+        {
+            //Notes.Remove(FindById(id));
+            Notes.Remove(null);
+        }
+
+        public Note FindById(string id)
+        {
+            return Notes.Find(note => note.Id.ToString() == id);
+        }
     }
 }
