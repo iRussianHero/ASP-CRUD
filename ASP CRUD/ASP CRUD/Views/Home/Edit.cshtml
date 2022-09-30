@@ -2,8 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model NotesViewModel
+@model Note
 
-<div>
-
-</div>
+<form asp-action="Index" asp-controller="Home">
+    <div>
+        <label class="form-label">Theme: </label>
+        <input type="text" name="theme" class="form-control" aria-describedby="theme..." value="@Model.Theme"/>
+    </div>
+    <div>
+        <label class="form-label">Content: </label>
+        <input type="text" name="content" class="form-control" aria-describedby="theme..." value="@Model.Content" />    
+    </div>
+    <div class="p-2">
+        <button type="submit" id="ok" class="btn btn-primary btn-lg">Edit</button>
+        <button type="submit" id="nok" class="btn btn-primary btn-lg">Cacnel</button>
+    </div>
+</form>

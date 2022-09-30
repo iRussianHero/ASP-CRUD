@@ -42,7 +42,7 @@ namespace ASP_CRUD.Controllers
 
         public IActionResult Edit(string id)
         {
-            var result = 0;//noteService.
+            var result = noteService.FindById(id);
             return View("Edit", result);
         }
 

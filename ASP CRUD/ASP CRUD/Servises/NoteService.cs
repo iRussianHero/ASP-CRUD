@@ -18,8 +18,7 @@ namespace ASP_CRUD.Servises
 
         public void DeleteById(string id)
         {
-            //Notes.Remove(FindById(id));
-            Notes.Remove(null);
+            Notes.Remove(FindById(id));
         }
 
         public Note FindById(string id)
