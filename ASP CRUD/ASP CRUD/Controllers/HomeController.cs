@@ -27,7 +27,7 @@ namespace ASP_CRUD.Controllers
             else {
             noteService.CreateNote(theme, content);
             }
-            return View(viewModel);
+            return RedirectToAction("Index", viewModel);
         }
 
         public IActionResult Delete(string id)
@@ -40,7 +40,14 @@ namespace ASP_CRUD.Controllers
             return View();
         }
 
-        public IActionResult Edit(string id)
+        public IActionResult Update(Note note)
+        {
+            var res = note;
+            noteService.UpdateById(note);
+            return View("Edit", note);
+        }
+
+        public IActionResult EditView(string id)
         {
             var result = noteService.FindById(id);
             return View("Edit", result);

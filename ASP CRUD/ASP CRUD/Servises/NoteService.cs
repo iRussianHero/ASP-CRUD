@@ -25,5 +25,11 @@ namespace ASP_CRUD.Servises
         {
             return Notes.Find(note => note.Id.ToString() == id);
         }
+
+        public void UpdateById(Note note)
+        {
+            DeleteById(note.Id.ToString());
+            Notes.Add(note);
+        }
     }
 }

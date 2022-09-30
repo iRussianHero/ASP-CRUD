@@ -4,17 +4,21 @@
 
 @model Note
 
-<form asp-action="Index" asp-controller="Home">
+<form asp-action="Update" asp-controller="Home">
     <div>
-        <label class="form-label">Theme: </label>
+        <label class="form-label">Id:</label>
+        <input type="text" name="id" class="form-control" aria-describedby="id..." value="@Model.Id" />
+    </div>
+    <div>
+        <label class="form-label">Theme:</label>
         <input type="text" name="theme" class="form-control" aria-describedby="theme..." value="@Model.Theme"/>
     </div>
     <div>
-        <label class="form-label">Content: </label>
-        <input type="text" name="content" class="form-control" aria-describedby="theme..." value="@Model.Content" />    
+        <label class="form-label">Content:</label>
+        <input type="text" name="content" class="form-control" aria-describedby="content..." value="@Model.Content" />    
     </div>
     <div class="p-2">
         <button type="submit" id="ok" class="btn btn-primary btn-lg">Edit</button>
-        <button type="submit" id="nok" class="btn btn-primary btn-lg">Cacnel</button>
+        <a asp-action="Index" asp-controller="Home" id="nok" class="btn btn-primary btn-lg">Cacnel</a>
     </div>
 </form>
